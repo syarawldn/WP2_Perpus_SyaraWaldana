@@ -74,11 +74,12 @@ private function _login()
         {
             $this->load->view('autentifikasi/blok');
         }
- 
+
         public function gagal()
         {
             $this->load->view('autentifikasi/gagal');
         }
+           
 
         public function registrasi()
         {
